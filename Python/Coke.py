@@ -3,9 +3,9 @@ def coke_machine():
     inserted = 0
     
     while inserted < price:
-        coin = int(input("Insert a coin (5, 10, or 25): "))
+        coin = int(input("Insert a coin [5, 10, or 25]: "))
         
-        if coin not in (5, 10, 25):
+        if coin not in [5, 10, 25]:
             print("Invalid coin. Please insert a coin of 5, 20, or 25.")
             continue
         
