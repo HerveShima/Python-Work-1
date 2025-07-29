@@ -6,5 +6,5 @@ def remove_vowels(word):
     return result
 
 
-result = remove_vowels(input_word)
-print("Word without vowels:", result)
+res = remove_vowels(input_word)
+print("Word without vowels:", res)
