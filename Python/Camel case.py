@@ -11,5 +11,5 @@ def convert(name):
     b = ''.join(a) 
     return b
 
-result = convert(name)
-print(result)
+results = convert(name)
+print(results)
